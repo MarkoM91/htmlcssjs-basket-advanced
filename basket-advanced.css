@@ -28,7 +28,11 @@ body{
   background: #dedede;
 }
 
+.input-element *{
+display: flex;
+flex-direction: column;
 
+}
 
 
 .input-container {
