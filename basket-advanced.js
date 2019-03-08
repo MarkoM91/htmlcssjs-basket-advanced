@@ -82,11 +82,11 @@ function getRandomPlayers() {
 }
 
 function updateUI(players) {
-  var option = $('div.list');
+  var option = $('.input-element > div.list');
   for (var i = 0; i < players.length; i++) {
 
      option.html(players[i].id);
-
+     console.log(option);
   }
 
 
@@ -146,8 +146,8 @@ updateUI(players);
 var clearButton = $('#clear-btn');
 clearButton.click(clearClick);
 
-var divlist = $('div.list');
-divlist.on("change" , function() {
+var divlist = $('.input-element > div.list');
+divlist.on("click" , function() {
 
 var me = $(this);
   playerSelection(players, me);
