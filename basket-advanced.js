@@ -82,19 +82,18 @@ function getRandomPlayers() {
 }
 
 function updateUI(players) {
-
-var datalist = $('#players');
-
-
+  var option = $('.input-element');
   for (var i = 0; i < players.length; i++) {
 
+     option.append(players[i].id);
 
 
-    option =document.createElement("option");
-    option.value = players[i].id;
 
 
-    datalist.append(option);
+
+
+
+
 
   }
 
