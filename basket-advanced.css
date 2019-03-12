@@ -16,11 +16,11 @@ body{
 }
 
 .container {
-  background-image: url("images2.jpg");
+  background-image: url("images5.jpg");
   background-size: cover;
   color: white;
   font-weight: 900;
-  box-shadow: 20px 20px 20px lightgrey;
+  text-shadow: 100px 100px 100px lightgrey;
   display: flex;
 
 
@@ -51,7 +51,7 @@ flex-direction: column;
 
 .input-container > * {
 
-  margin: 50px;
+  margin: 30px;
 }
 
 .player-wrapper {
