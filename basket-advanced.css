@@ -11,12 +11,16 @@
 }
 
 body{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqCrVJdRn8u2Yj_MT9CSMdtSz9PJTr3Y7XZz0iA3ztdYSCnYE7");
+
 
 }
 
 .container {
-  color: rgb(80, 133, 33);
+  background-image: url("images2.jpg");
+  background-size: cover;
+  color: white;
+  font-weight: 900;
+  box-shadow: 20px 20px 20px lightgrey;
   display: flex;
 
 
@@ -25,7 +29,7 @@ body{
 
   padding: 50px;
 
-  background: #dedede;
+
 }
 
 .input-element *{
