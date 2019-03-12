@@ -83,6 +83,7 @@ function getRandomPlayers() {
 
 function updateUI(players) {
 
+  
   var option = $('.input-element');
 
 
@@ -93,6 +94,7 @@ function updateUI(players) {
 
 
     option.append(opt);
+
   }
 
 

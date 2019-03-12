@@ -33,6 +33,10 @@ display: flex;
 flex-direction: column;
 
 }
+.elementContainer{
+  height: 190px;
+  overflow-x: scroll;
+}
 
 
 .input-container {
