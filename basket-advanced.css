@@ -42,11 +42,12 @@ flex-direction: column;
 .input-container {
   padding: 100px 0;
   display: flex;
+
 }
 
 .input-container > * {
 
-  margin: 0 .5rem;
+  margin: 50px;
 }
 
 .player-wrapper {
