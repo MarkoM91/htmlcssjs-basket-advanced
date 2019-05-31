@@ -10,43 +10,39 @@
   margin-right: auto;
 }
 
-body{
-
-
-}
-
 .container {
+
   background-image: url("images5.jpg");
+  background-position: center;
   background-size: cover;
+
   color: white;
   font-weight: 900;
   text-shadow: 100px 100px 100px lightgrey;
   display: flex;
 
-
   width: 100vw;
   height: 100vh;
 
   padding: 50px;
-
-
 }
 
 .input-element *{
-display: flex;
-flex-direction: column;
 
+  display: flex;
+  flex-direction: column;
 }
+
 .elementContainer{
+
   height: 190px;
   overflow-x: scroll;
 }
 
-
 .input-container {
+
   padding: 100px 0;
   display: flex;
-
 }
 
 .input-container > * {
