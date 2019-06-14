@@ -106,8 +106,9 @@ function clearClick() {
 
 function playerSelection(players, me) {
 
- var pickedId = me.val();
-
+ var pickedId = me.text();
+ console.log(pickedId);
+ console.log(players);
  var player = getPlayerbyId(pickedId, players)
 
  idDOM =$('#id > span.content');
